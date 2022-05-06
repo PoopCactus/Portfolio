@@ -1,239 +1,298 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>PoopCactus's Portfolio</title>
-        <meta name="description" content="Portfolio for world-renownde software enginner Ellie">
-        <meta name="author" content="PoopCactus">
-        <link rel="icon" type="image/png" href="imgs/favicon.png">
-        <script src="https://kit.fontawesome.com/aa702373ae.js" crossorigin="anonymous"></script>
-        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="style.css">
-        <script defer src="main.js"></script>
-    </head>
-    <body>
-        <!-- Navbar -->
-        <nav id="navbar">
-            <div class="navbar__logo">
-                <i class="fa-solid fa-asterisk"></i>
-                <a href="#">PoopCactus</a>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PoopCactus's Portfolio</title>
+    <meta
+      name="description"
+      content="Portfolio for world-renownde software enginner Ellie"
+    />
+    <meta name="author" content="PoopCactus" />
+    <link rel="icon" type="image/png" href="imgs/favicon.png" />
+    <script
+      src="https://kit.fontawesome.com/aa702373ae.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="main.js"></script>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav id="navbar">
+      <div class="navbar__logo">
+        <i class="fa-solid fa-asterisk"></i>
+        <a href="#">PoopCactus</a>
+      </div>
+      <ul class="navbar__menu">
+        <li class="navbar__menu__item">Home</li>
+        <li class="navbar__menu__item">About</li>
+        <li class="navbar__menu__item">Skills</li>
+        <li class="navbar__menu__item">My work</li>
+        <li class="navbar__menu__item">Testimonial</li>
+        <li class="navbar__menu__item">Contact</li>
+      </ul>
+    </nav>
+    <!-- Home -->
+    <section id="home">
+      <img
+        src="imgs/profile.png"
+        alt="PoopCactus's profile photo"
+        class="home__avatar"
+      />
+      <h1 class="home__title">Hello,<br />I'm Dream Coder.</h1>
+      <h2 class="home__description">The sentence you want to emphasize.</h2>
+      <button class="home__contact">Contact Me</button>
+    </section>
+    <!-- About -->
+    <section id="about">
+      <h1>About me</h1>
+      <p>
+        Describe me. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Corporis vero facere voluptatum voluptate ut magni enim. Corrupti ipsa
+        repellat, fugiat adipisci vitae suscipit illum doloribus soluta a
+        incidunt, quis beatae.
+      </p>
+      <div class="about__majors">
+        <div class="major">
+          <div class="major__icon">
+            <i class="fa-brands fa-html5"></i>
+          </div>
+          <div class="major__title">Front-end</div>
+          <div class="major__description">
+            HTML, CSS, JavaScript, TypeScript,<br />React, Vue, Web APIs
+          </div>
+        </div>
+        <div class="major">
+          <div class="major__icon">
+            <i class="fa-brands fa-html5"></i>
+          </div>
+          <div class="major__title">Front-end</div>
+          <div class="major__description">
+            HTML, CSS, JavaScript, TypeScript,<br />React, Vue, Web APIs
+          </div>
+        </div>
+        <div class="major">
+          <div class="major__icon">
+            <i class="fa-brands fa-html5"></i>
+          </div>
+          <div class="major__title">Front-end</div>
+          <div class="major__description">
+            HTML, CSS, JavaScript, TypeScript,<br />React, Vue, Web APIs
+          </div>
+        </div>
+      </div>
+      <div class="about__career">
+        <div class="career">
+          <img src="" alt="" class="career__logo" />
+          <p class="career__name">Title.</p>
+          <p class="career_period">Text.</p>
+        </div>
+        <div class="career">
+          <img src="" alt="" class="career__logo" />
+          <p class="career__name">Title.</p>
+          <p class="career_period">Text.</p>
+        </div>
+      </div>
+    </section>
+    <!-- Skills -->
+    <section id="skills">
+      <h1>Skills</h1>
+      <h2>Skills & Attributes</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
+        amet consequuntur, necessitatibus sequi deserunt quasi commodi sapiente
+        doloremque cum optio, quo corrupti, id delectus inventore minus
+        veritatis provident vel natus?
+      </p>
+      <div class="skillset">
+        <div class="skillset__left">
+          <h3 class="skillset__title">Skills</h3>
+          <div class="skill">
+            <div class="skill_description">
+              <span>HTML</span>
+              <span>90%</span>
             </div>
-            <ul class="navbar__menu">
-                <li class="navbar__menu__item">Home</li>
-                <li class="navbar__menu__item">About</li>
-                <li class="navbar__menu__item">Skills</li>
-                <li class="navbar__menu__item">My work</li>
-                <li class="navbar__menu__item">Testimonial</li>
-                <li class="navbar__menu__item">Contact</li>
+            <div class="skill__bar">
+              <div class="skill__value"></div>
+            </div>
+          </div>
+          <div class="skill">
+            <div class="skill_description">
+              <span>CSS</span>
+              <span>90%</span>
+            </div>
+            <div class="skill__bar">
+              <div class="skill__value"></div>
+            </div>
+          </div>
+          <div class="skill">
+            <div class="skill_description">
+              <span>JavaScript</span>
+              <span>90%</span>
+            </div>
+            <div class="skill__bar">
+              <div class="skill__value"></div>
+            </div>
+          </div>
+          <div class="skill">
+            <div class="skill_description">
+              <span>jQuery</span>
+              <span>90%</span>
+            </div>
+            <div class="skill__bar">
+              <div class="skill__value"></div>
+            </div>
+          </div>
+        </div>
+        <div class="skillset__right">
+          <div class="tools">
+            <h3 class="skillset__title">Tools</h3>
+            <ul class="tools__list">
+              <li><span>Adobe Photoshop</span></li>
+              <li><span>Adove Illustrator</span></li>
+              <li><span>Visual Studio Code</span></li>
+              <li><span>Adobe XD</span></li>
+              <li><span>Figma</span></li>
             </ul>
-        </nav>
-        <!-- Home -->
-        <section id="home">
-            <img src="imgs/profile.png" alt="PoopCactus's profile photo" class="home__avatar">
-            <h1 class="home__title">Hello,<br />I'm Dream Coder.</h1>
-            <h2 class="home__description">The sentence you want to emphasize.</h2>
-            <button class="home__contact">Contact Me</button>
-        </section>
-        <!-- About -->
-        <section id="about">
-            <h1>About me</h1>
-            <p>Describe me. Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis vero facere voluptatum voluptate ut magni enim. Corrupti ipsa repellat, fugiat adipisci vitae suscipit illum doloribus soluta a incidunt, quis beatae.</p>
-            <div class="about__majors">
-                <div class="major">
-                    <div class="major__icon">
-                        <i class="fa-brands fa-html5"></i>
-                    </div>
-                    <div class="major__title">Front-end</div>
-                    <div class="major__description">HTML, CSS, JavaScript, TypeScript,<br />React, Vue, Web APIs</div>
-                </div>
-                <div class="major">
-                    <div class="major__icon">
-                        <i class="fa-brands fa-html5"></i>
-                    </div>
-                    <div class="major__title">Front-end</div>
-                    <div class="major__description">HTML, CSS, JavaScript, TypeScript,<br />React, Vue, Web APIs</div>
-                </div>
-                <div class="major">
-                    <div class="major__icon">
-                        <i class="fa-brands fa-html5"></i>
-                    </div>
-                    <div class="major__title">Front-end</div>
-                    <div class="major__description">HTML, CSS, JavaScript, TypeScript,<br />React, Vue, Web APIs</div>
-                </div>
-            </div>
-            <div class="about__career">
-                <div class="career">
-                    <img src="" alt="" class="career__logo">
-                    <p class="career__name">Title.</p>
-                    <p class="career_period">Text.</p>
-                </div>
-                <div class="career">
-                    <img src="" alt="" class="career__logo">
-                    <p class="career__name">Title.</p>
-                    <p class="career_period">Text.</p>
-                </div>
-            </div>
-        </section>
-        <!-- Skills -->
-        <section id="skills">
-            <h1>Skills</h1>
-            <h2>Skills & Attributes</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos amet consequuntur, necessitatibus sequi deserunt quasi commodi sapiente doloremque cum optio, quo corrupti, id delectus inventore minus veritatis provident vel natus?</p>
-            <div class="skillset">
-                <div class="skillset__left">
-                    <h3 class="skillset__title">Skills</h3>
-                    <div class="skill">
-                        <div class="skill_description">
-                            <span>HTML</span>
-                            <span>90%</span>
-                        </div>
-                        <div class="skill__bar">
-                            <div class="skill__value"></div>
-                        </div>
-                    </div>
-                    <div class="skill">
-                        <div class="skill_description">
-                            <span>CSS</span>
-                            <span>90%</span>
-                        </div>
-                        <div class="skill__bar">
-                            <div class="skill__value"></div>
-                        </div>
-                    </div>
-                    <div class="skill">
-                        <div class="skill_description">
-                            <span>JavaScript</span>
-                            <span>90%</span>
-                        </div>
-                        <div class="skill__bar">
-                            <div class="skill__value"></div>
-                        </div>
-                    </div>
-                    <div class="skill">
-                        <div class="skill_description">
-                            <span>jQuery</span>
-                            <span>90%</span>
-                        </div>
-                        <div class="skill__bar">
-                            <div class="skill__value"></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="skillset__right">
-                    <div class="tools">
-                        <h3 class="skillset__title">Tools</h3>
-                        <ul class="tools__list">
-                            <li><span>Adobe Photoshop</span></li>
-                            <li><span>Adove Illustrator</span></li>
-                            <li><span>Visual Studio Code</span></li>
-                            <li><span>Adobe XD</span></li>
-                            <li><span>Figma</span></li>
-                        </ul>
-                    </div>
-                    <div class="etc">
-                        <h3 class="skillset__title">Etc</h3>
-                        <ul class="etc__list">
-                            <li><span>Git</span></li>
-                            <li><span>Text</span></li>
-                            <li><span>Text</span></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Work -->
-        <section id="work">
-            <h1>My work</h1>
-            <h3>Projects</h3>
-            <div class="work__categories">
-                <button class="category__btn">All<span class="category__count">10</span></button>
-                <button class="category__btn">Front-end<span class="category__count">4</span></button>
-                <button class="category__btn">Back-end<span class="category__count">3</span></button>
-                <button class="category__btn">Mobile<span class="category__count">3</span></button>
-            </div>
-            <div class="work__projects">
-                <a href="#" class="project" target="blank">
-                    <img class="project__img" src="imgs/projects/project1.png" alt="">
-                    <div class="project__description">
-                        <h3>Project 1</h3>
-                        <span>Clone coding with HTML and CSS.</span>
-                    </div>
-                </a>
-                <a href="#" class="project" target="blank">
-                    <img class="project__img" src="imgs/projects/project2.png" alt="">
-                    <div class="project__description">
-                        <h3>Project 2</h3>
-                        <span>Clone coding with HTML and CSS.</span>
-                    </div>
-                </a>
-                <a href="#" class="project" target="blank">
-                    <img class="project__img" src="imgs/projects/project3.png" alt="">
-                    <div class="project__description">
-                        <h3>Project 3</h3>
-                        <span>Clone coding with HTML and CSS.</span>
-                    </div>
-                </a>
-                <a href="#" class="project" target="blank">
-                    <img class="project__img" src="imgs/projects/project4.png" alt="">
-                    <div class="project__description">
-                        <h3>Project 4</h3>
-                        <span>Clone coding with HTML and CSS.</span>
-                    </div>
-                </a>
-                <a href="#" class="project" target="blank">
-                    <img class="project__img" src="imgs/projects/project5.png" alt="">
-                    <div class="project__description">
-                        <h3>Project 5</h3>
-                        <span>Clone coding with HTML and CSS.</span>
-                    </div>
-                </a>
-                <a href="#" class="project" target="blank">
-                    <img class="project__img" src="imgs/projects/project6.png" alt="">
-                    <div class="project__description">
-                        <h3>Project 6</h3>
-                        <span>Clone coding with HTML and CSS.</span>
-                    </div>
-                </a>
-                <a href="#" class="project" target="blank">
-                    <img class="project__img" src="imgs/projects/project7.png" alt="">
-                    <div class="project__description">
-                        <h3>Project 7</h3>
-                        <span>Clone coding with HTML and CSS.</span>
-                    </div>
-                </a>
-                <a href="#" class="project" target="blank">
-                    <img class="project__img" src="imgs/projects/project8.png" alt="">
-                    <div class="project__description">
-                        <h3>Project 8</h3>
-                        <span>Clone coding with HTML and CSS.</span>
-                    </div>
-                </a>
-            </div>
-        </section>
-        <!-- Testimonials -->
-        <section id="testimonials">
-            <h1>Testimonials</h1>
-            <h3>See whay they say about me.</h3>
-            <div class="testimonials">
-                <div class="testimonial">
-                    <img src="" alt="" class="testimonial__avatar">
-                    <div class="testimonial__speech-bubble">
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga a consequatur nihil magnam incidunt numquam aliquam adipisci dolores, quisquam, molestiae, ea provident aut dignissimos quaerat optio hic nemo nisi consequuntur.</p>
-                        <p class="name"><a href="">Name</a> / Company's name</p>
-                    </div>
-                </div>
-                <div class="testimonial">
-                    <img src="" alt="" class="testimonial__avatar">
-                    <div class="testimonial__speech-bubble">
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga a consequatur nihil magnam incidunt numquam aliquam adipisci dolores, quisquam, molestiae, ea provident aut dignissimos quaerat optio hic nemo nisi consequuntur.</p>
-                        <p class="name"><a href="">Name</a> / Company's name</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Contact -->
-        <section id="contact"></section>
-    </body>
+          </div>
+          <div class="etc">
+            <h3 class="skillset__title">Etc</h3>
+            <ul class="etc__list">
+              <li><span>Git</span></li>
+              <li><span>Text</span></li>
+              <li><span>Text</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Work -->
+    <section id="work">
+      <h1>My work</h1>
+      <h3>Projects</h3>
+      <div class="work__categories">
+        <button class="category__btn">
+          All<span class="category__count">10</span>
+        </button>
+        <button class="category__btn">
+          Front-end<span class="category__count">4</span>
+        </button>
+        <button class="category__btn">
+          Back-end<span class="category__count">3</span>
+        </button>
+        <button class="category__btn">
+          Mobile<span class="category__count">3</span>
+        </button>
+      </div>
+      <div class="work__projects">
+        <a href="#" class="project" target="blank">
+          <img class="project__img" src="imgs/projects/project1.png" alt="" />
+          <div class="project__description">
+            <h3>Project 1</h3>
+            <span>Clone coding with HTML and CSS.</span>
+          </div>
+        </a>
+        <a href="#" class="project" target="blank">
+          <img class="project__img" src="imgs/projects/project2.png" alt="" />
+          <div class="project__description">
+            <h3>Project 2</h3>
+            <span>Clone coding with HTML and CSS.</span>
+          </div>
+        </a>
+        <a href="#" class="project" target="blank">
+          <img class="project__img" src="imgs/projects/project3.png" alt="" />
+          <div class="project__description">
+            <h3>Project 3</h3>
+            <span>Clone coding with HTML and CSS.</span>
+          </div>
+        </a>
+        <a href="#" class="project" target="blank">
+          <img class="project__img" src="imgs/projects/project4.png" alt="" />
+          <div class="project__description">
+            <h3>Project 4</h3>
+            <span>Clone coding with HTML and CSS.</span>
+          </div>
+        </a>
+        <a href="#" class="project" target="blank">
+          <img class="project__img" src="imgs/projects/project5.png" alt="" />
+          <div class="project__description">
+            <h3>Project 5</h3>
+            <span>Clone coding with HTML and CSS.</span>
+          </div>
+        </a>
+        <a href="#" class="project" target="blank">
+          <img class="project__img" src="imgs/projects/project6.png" alt="" />
+          <div class="project__description">
+            <h3>Project 6</h3>
+            <span>Clone coding with HTML and CSS.</span>
+          </div>
+        </a>
+        <a href="#" class="project" target="blank">
+          <img class="project__img" src="imgs/projects/project7.png" alt="" />
+          <div class="project__description">
+            <h3>Project 7</h3>
+            <span>Clone coding with HTML and CSS.</span>
+          </div>
+        </a>
+        <a href="#" class="project" target="blank">
+          <img class="project__img" src="imgs/projects/project8.png" alt="" />
+          <div class="project__description">
+            <h3>Project 8</h3>
+            <span>Clone coding with HTML and CSS.</span>
+          </div>
+        </a>
+      </div>
+    </section>
+    <!-- Testimonials -->
+    <section id="testimonials">
+      <h1>Testimonials</h1>
+      <h3>See whay they say about me.</h3>
+      <div class="testimonials">
+        <div class="testimonial">
+          <img src="" alt="" class="testimonial__avatar" />
+          <div class="testimonial__speech-bubble">
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga a
+              consequatur nihil magnam incidunt numquam aliquam adipisci
+              dolores, quisquam, molestiae, ea provident aut dignissimos quaerat
+              optio hic nemo nisi consequuntur.
+            </p>
+            <p class="name"><a href="">Name</a> / Company's name</p>
+          </div>
+        </div>
+        <div class="testimonial">
+          <img src="" alt="" class="testimonial__avatar" />
+          <div class="testimonial__speech-bubble">
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga a
+              consequatur nihil magnam incidunt numquam aliquam adipisci
+              dolores, quisquam, molestiae, ea provident aut dignissimos quaerat
+              optio hic nemo nisi consequuntur.
+            </p>
+            <p class="name"><a href="">Name</a> / Company's name</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Contact -->
+    <section id="contact">
+      <h1 class="contact__title">Let's talk</h1>
+      <h2 class="contact__email">ava_taara@naver.com</h2>
+      <div class="contact__links">
+        <a href="" traget="blank">
+          <i class="fa-brands fa-github"></i>
+        </a>
+        <a href="" traget="blank">
+          <i class="fa-brands fa-github"></i>
+        </a>
+      </div>
+      <p class="contact__rights">2022 PoopCactus - All rights reserved.</p>
+    </section>
+  </body>
 </html>
