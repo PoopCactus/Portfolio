@@ -1,4 +1,5 @@
 /*  Global */
+
 :root {
     /*  Color */
     --color-white: #ffffff;
@@ -38,7 +39,9 @@
     --animation-duration: 300ms;
 }
 
+
 /*  Universal tags */
+
 * {
     box-sizing: border-box;
 }
@@ -70,7 +73,9 @@ button {
     outline: none;
 }
 
+
 /*  Typography */
+
 h1 {
     font-size:  var(--font-large);
     font-weight: var(--weight-bold);
@@ -99,7 +104,9 @@ p {
     margin: 4px 0;
 }
 
+
 /* Navbar */
+
 #navbar {
     display: flex;
     justify-content: space-between;
@@ -134,7 +141,17 @@ p {
     background-color: var(--color-mint);
 }
 
+.navbar__toggle-btn {
+    position: absolute;
+    top: 24px;
+    right: 32px;
+    font-size: 24px;
+    color: var(--color-white);
+    display: none;
+}
+
 /* Home */
+
 #home {
     /* background: color, image, repeat, position, attachment  */
     background: url('/imgs/home-background.png') center/cover no-repeat;
@@ -467,4 +484,53 @@ p {
     transform: scale(1.1);
     color: var(--color-dark-white);
     /* Color change. */
+}
+
+
+/* For below 768px screen width */
+
+@media screen  and (max-width: 768px) {
+
+    #navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navbar__menu {
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+        display: none;
+    }
+
+    .navbar__toggle-btn {
+        display: block;
+    }
+
+    .about__majors {
+        flex-direction: column;
+    }
+
+    .major {
+        margin-bottom: 38px;
+    }
+
+    /* Skill */
+
+    .skillset {
+        flex-direction: column;
+    }
+
+    /* Work */
+
+    .project {
+        flex-grow: 1;
+    }
+
+    /* Testimonials */
+
+    .testimonial__avatar {
+        width: 80px;
+        height: 80px;
+    }
 }
